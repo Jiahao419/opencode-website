@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Favorite Games</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch to Dark Mode">
+    <span class="icon sun" aria-hidden="true">☀️</span>
+    <span class="icon moon" aria-hidden="true">🌙</span>
+    <span class="theme-label" id="themeLabel">Switch to Dark Mode</span>
+  </button>
+
+  <main>
+    <header>
+      <h1>My Favorite Games</h1>
+      <p class="intro">
+        Gaming has always been more than a hobby for me. It's a way to unwind,
+        explore rich worlds, and connect with stories and characters that stick
+        with me long after the credits roll. Whether I'm grinding through a JRPG
+        or wandering an open landscape, the escape and creativity gaming offers
+        keep me coming back.
+      </p>
+    </header>
+
+    <section aria-labelledby="top-games-heading">
+      <h2 id="top-games-heading">Top Three Favorite Games</h2>
+      <div class="game-grid">
+        <article class="game-card">
+          <h3>Persona 5</h3>
+          <p>
+            A stylish JRPG about a group of students who change hearts as the
+            Phantom Thieves. The turn-based combat, social simulation, and
+            unforgettable soundtrack make every playthrough a treat.
+          </p>
+        </article>
+
+        <article class="game-card">
+          <h3>Genshin Impact</h3>
+          <p>
+            An open-world action RPG with elemental combat and breathtaking
+            scenery across Teyvat. Exploring its regions and teaming up friends
+            for co-op keeps it endlessly replayable.
+          </p>
+        </article>
+
+        <article class="game-card">
+          <h3>Hollow Knight</h3>
+          <p>
+            A hand-drawn 2D metroidvania set in the fallen kingdom of Hallownest.
+            Its challenging bosses, hidden lore, and atmospheric world make it
+            one of my all-time favorites.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="enjoy-heading">
+      <h2 id="enjoy-heading">What I Enjoy About Gaming</h2>
+      <ul>
+        <li>Immersive stories and memorable characters.</li>
+        <li>Exploring beautiful, hand-crafted worlds.</li>
+        <li>Learning mechanics and overcoming hard challenges.</li>
+        <li>Playing solo or sharing the experience with friends.</li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
